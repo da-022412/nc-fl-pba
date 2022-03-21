@@ -13,6 +13,9 @@ function MyApp({ Component, pageProps }) {
                     overflow-x: hidden;
                     padding: 0;
                     scroll-behavior: smooth;
+
+                    --primary-color: #08325a;
+                    --site-width: 1200px;
                 }
             `}</style>
             <Head>

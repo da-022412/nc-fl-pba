@@ -1,0 +1,23 @@
+.header {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.header-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 90%;
+    width: var(--site-width);
+}
+
+.logo-container {
+    padding: 1rem 0;
+}
+
+.logo {
+    left: 1rem;
+    position: absolute;
+    top: 0.5rem;
+}
