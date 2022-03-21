@@ -1,0 +1,26 @@
+.hero {
+    background: linear-gradient(
+            90deg,
+            rgba(8, 50, 90, 0.9) 25%,
+            rgba(8, 50, 90, 0.5) 100%
+        ),
+        url('/images/american-flag.webp') center center/cover;
+}
+
+.hero-container {
+    color: #fff;
+    margin: auto;
+    max-width: 90%;
+    padding: 12rem 0;
+    width: var(--site-width);
+}
+
+.hero-slider {
+    margin: 0;
+    width: 50%;
+}
+
+.hero-slide {
+    font-size: 1.5rem;
+    padding: 3rem;
+}

@@ -17,6 +17,10 @@ function MyApp({ Component, pageProps }) {
                     --primary-color: #08325a;
                     --site-width: 1200px;
                 }
+
+                h1 {
+                    font-size: 3rem;
+                }
             `}</style>
             <Head>
                 <title>North Central Florida PBA</title>
