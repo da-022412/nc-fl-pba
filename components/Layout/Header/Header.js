@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import headerStyles from './Header.module.scss';
 
-import Logo from '../../../assets/images/pba-blue-and gold.webp';
+import Logo from '../../../assets/images/pba-blue-and-gold.webp';
 
 const Header = () => {
     return (
@@ -14,7 +14,9 @@ const Header = () => {
                     </div>
                     Florida Police Benevolent Association
                 </div>
-                <span>1(800) 733-3722</span>
+                <a href='tel:8007333722'>
+                    <span>1(800) 733-3722</span>
+                </a>
             </div>
         </header>
     );
